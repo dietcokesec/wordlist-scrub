@@ -4,5 +4,11 @@ This is a super simple tool to scrub non-compliant entries from a wordlist for u
 ## Example
 It's really easy:
 ```shell
-uv run main.py --min-uppercase-vals 1 --min-lowercase-vals 1 --min-digit-vals 1 --min-val-length 10 rockyou.txt filtered.txt
+uv run main.py \
+  --min-uppercase-vals 1 \
+  --min-lowercase-vals 1 \
+  --min-digit-vals 1 \
+  --min-val-length 10 \
+  rockyou.txt \
+  filtered.txt
 ```
